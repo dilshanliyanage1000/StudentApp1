@@ -1,5 +1,5 @@
 import React from "react";
-import { createRoot } from "react-dom";
+import { createRoot } from "react-dom/client";
 import AddStudent from "./views/AddStudent";
 import Navbar from "./components/Navbar";
 

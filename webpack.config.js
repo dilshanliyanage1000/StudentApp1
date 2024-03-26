@@ -4,7 +4,7 @@ const Dotenv = require('dotenv-webpack');
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:3001/",
+    publicPath: "http://localhost:8080/",
   },
 
   resolve: {
@@ -12,8 +12,8 @@ module.exports = (_, argv) => ({
   },
 
   devServer: {
-    port: 3001,
-    historyApiFallback: true,
+    port: 8080,
+    historyApiFallback: true
   },
 
   module: {
