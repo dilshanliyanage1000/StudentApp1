@@ -4,7 +4,7 @@ const Dotenv = require('dotenv-webpack');
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:8080/",
+    publicPath: "https://polite-brioche-783a81.netlify.app",
   },
 
   resolve: {
@@ -12,7 +12,6 @@ module.exports = (_, argv) => ({
   },
 
   devServer: {
-    port: 8080,
     historyApiFallback: true
   },
 
