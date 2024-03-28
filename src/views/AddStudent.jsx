@@ -6,13 +6,14 @@ function AddStudent() {
 
         <div className='app'>
 
-            <main className="app container text-center">
+            <main className="app container text-center" style={{ marginTop : "5rem", marginBottom: "3rem" }}>
 
                 <div className="m-0 border-0 dark-bg rounded-4">
 
                     <form>
 
-                        <h1 className="display-6 mb-5">Add Student</h1>
+                        <h3>Add Student</h3>
+                        <p className="mb-5" style={{ fontSize: "18px", color : "gray"}}>• Retrieved from StudentApp #1 •</p>
 
                         <div className='row'>
 
