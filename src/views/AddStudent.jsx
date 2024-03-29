@@ -6,7 +6,7 @@ function AddStudent() {
 
         <div className='app'>
 
-            <main className="app container text-center" style={{ marginTop : "5rem", marginBottom: "3rem" }}>
+            <main className="app container text-center" style={{ marginTop : "4rem", marginBottom: "2rem" }}>
 
                 <div className="m-0 border-0 dark-bg rounded-4">
 
