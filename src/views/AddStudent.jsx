@@ -12,8 +12,8 @@ function AddStudent() {
 
                     <form>
 
-                        <h3>Add Student</h3>
-                        <p className="mb-5" style={{ fontSize: "18px", color : "gray"}}>• Retrieved from StudentApp #1 •</p>
+                        <h3>Add Student Form</h3>
+                        <p className="mb-5" style={{ fontSize: "18px", color : "gray"}}>• Retrieved from StudentApp#1 •</p>
 
                         <div className='row'>
 
